@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <gradient
+        android:angle="270"
+        android:centerColor="@color/sign_up_edit_text_background_start_color"
+        android:endColor="@color/sign_up_edit_text_background_color"
+        android:startColor="@color/sign_up_edit_text_background_start_color" />
+
+    <corners android:radius="@dimen/sign_up_background_shape_angle" />
+
+    <padding
+        android:bottom="@dimen/sign_up_edit_text_padding_bottom"
+        android:left="@dimen/sign_up_edit_text_padding_left"
+        android:right="@dimen/sign_up_edit_text_padding_right"
+        android:top="@dimen/sign_up_edit_text_padding_top" />
+
+</shape>

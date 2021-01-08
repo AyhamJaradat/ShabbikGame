@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/second_activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+<!--    <com.google.android.gms.ads.AdView-->
+<!--        android:id="@+id/banner_ad"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        ads:adSize="BANNER"-->
+<!--        ads:adUnitId="@string/second_menu_activity_top_banner" />-->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="center"
+            android:src="@drawable/header" />
+
+        <ImageView
+            android:id="@+id/imagegametype"
+            android:layout_width="173dp"
+            android:layout_height="91dp" />
+
+        <ImageView
+            android:id="@+id/trainImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dip"
+            android:background="@drawable/tadreb_button_behavior" />
+
+        <ImageView
+            android:id="@+id/playWithFBUserImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dip"
+            android:background="@drawable/thada_sadek_behavior" />
+
+        <ImageView
+            android:id="@+id/playWithRandomUserImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dip"
+            android:background="@drawable/ta7ade_ashwa2e_behavior" />
+
+    </LinearLayout>
+
+</RelativeLayout>

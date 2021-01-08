@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "658168557836",
+    "project_id": "shabbikgame",
+    "storage_bucket": "shabbikgame.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:658168557836:android:c5d99e608e1451f0d45929",
+        "android_client_info": {
+          "package_name": "com.palteam.shabbik"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "658168557836-6p7234dldb7vpa6tst5mhd4j5dl86le2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.palteam.shabbik",
+            "certificate_hash": "bb58d71e552a453e8e9c79bb0eea3645347498de"
+          }
+        },
+        {
+          "client_id": "658168557836-fe2llt1fkvenvjvme6kh25hjujvu4aem.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDluc25e4L45blIZdc3za7eaFaJnDGui1s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "658168557836-fe2llt1fkvenvjvme6kh25hjujvu4aem.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app1="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="6dp">
+
+    <!-- Facebook friend profile picture -->
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/imageViewForContactNameChallengeActivity"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/profile_default"
+        app1:civ_border_width="0dp" />
+
+    <TextView
+        android:id="@+id/textViewForContactNameChallengeActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/imageViewForContactNameChallengeActivity"
+        android:layout_marginRight="5dp"
+        android:layout_toLeftOf="@+id/imageViewForContactNameChallengeActivity"
+        android:text="Name"
+        android:textColor="@android:color/black"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textViewForRoundNumberChallengeActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textViewForContactNameChallengeActivity"
+        android:layout_below="@+id/textViewForContactNameChallengeActivity"
+        android:layout_marginTop="5dp"
+        android:layout_toLeftOf="@+id/imageViewForContactNameChallengeActivity"
+        android:text="Round 1"
+        android:textColor="@android:color/black"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textViewForRoundTimeChallengeActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textViewForContactNameChallengeActivity"
+        android:layout_below="@+id/textViewForRoundNumberChallengeActivity"
+        android:layout_marginTop="5dp"
+        android:layout_toLeftOf="@+id/imageViewForContactNameChallengeActivity"
+        android:text="2 days ago"
+        android:textColor="@android:color/black"
+        android:textSize="12sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="11dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewForStatusMessageChallengeActivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textColor="@android:color/black"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/imageViewForStartPlayButtonChallengeActivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/button_start_play_with_friend_selector"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</RelativeLayout>

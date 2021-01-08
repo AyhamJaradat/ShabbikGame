@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="text_size">20px</dimen>
+    <dimen name="margin_between_charhcter">10dip</dimen>
+    <dimen name="charcter_button_dim">80dip</dimen>
+    <dimen name="found_words_hieght">120dip</dimen>
+    <dimen name="letters_grid_width">210dip</dimen>
+    <dimen name="screen_report_width_image">50dip</dimen>
+    <dimen name="hint_dimintion">40dp</dimen>
+    <dimen name="user_image_dimen">80dip</dimen>
+
+    <!-- Challenges activity -->
+    <dimen name="toggle_width">140dp</dimen>
+    <dimen name="toggle_height">70dp</dimen>
+
+
+    <!-- Sign up -->
+    <dimen name="sign_up_edit_text_padding_left">25dp</dimen>
+    <dimen name="sign_up_edit_text_padding_right">25dp</dimen>
+    <dimen name="sign_up_edit_text_padding_top">15dp</dimen>
+    <dimen name="sign_up_edit_text_padding_bottom">15dp</dimen>
+    <dimen name="sign_up_background_shape_angle">50dp</dimen>
+    <dimen name="sign_up_edit_text_height">60dp</dimen>
+    <dimen name="sign_up_edit_text_width">320dp</dimen>
+    <dimen name="sign_up_space_between_edit_text">20dp</dimen>
+    <dimen name="sign_up_edit_text_text_size">20sp</dimen>
+
+</resources>

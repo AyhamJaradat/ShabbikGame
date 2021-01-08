@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/challenges_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/imageViewToggleLeft"
+            android:layout_width="@dimen/toggle_width"
+            android:layout_height="@dimen/toggle_height"
+            android:src="@drawable/left_tab_selector" />
+
+        <ImageView
+            android:id="@+id/imageViewToggleMiddle"
+            android:layout_width="@dimen/toggle_width"
+            android:layout_height="@dimen/toggle_height"
+            android:src="@drawable/middle_tab_selector" />
+
+        <ImageView
+            android:id="@+id/imageViewToggleRight"
+            android:layout_width="@dimen/toggle_width"
+            android:layout_height="@dimen/toggle_height"
+            android:src="@drawable/right_tab_selector" />
+    </LinearLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        tools:context=".MainActivity" />
+
+    <ImageView
+        android:id="@+id/imageViewForInviteNewFriends"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/button_invite_new_friends_to_play_selector"
+        android:visibility="gone" />
+
+</LinearLayout>

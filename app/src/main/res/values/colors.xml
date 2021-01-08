@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="transparent">#00000000</color>
+
+
+    <!-- Characters -->
+    <color name="characters_background_color">#008a83</color>
+
+    <!-- Sign up -->
+    <color name="sign_up_edit_text_background_color">#cca974</color>
+    <color name="sign_up_edit_text_background_start_color">#cfbe93</color>
+    <color name="sign_up_edit_text_text_color">#000000</color>
+
+
+    <!-- Friends activity -->
+    <color name="friends_list_background_color">#0fe9e1</color>
+
+</resources>

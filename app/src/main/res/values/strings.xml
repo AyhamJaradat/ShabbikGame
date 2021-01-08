@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">شبّك</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="alf">ا</string>
+    <string name="ba">ب</string>
+    <string name="ta2">ة</string>
+    <string name="ta">ت</string>
+    <string name="tha">ث</string>
+    <string name="jeem">ج</string>
+    <string name="hha">ح</string>
+    <string name="kha">خ</string>
+    <string name="dal">د</string>
+    <string name="thal">ذ</string>
+    <string name="ra">ر</string>
+    <string name="zai">ز</string>
+    <string name="seen">س</string>
+    <string name="sheen">ش</string>
+    <string name="sad">ص</string>
+    <string name="dad">ض</string>
+    <string name="taa2">ط</string>
+    <string name="dad_dot">ظ</string>
+    <string name="aein">ع</string>
+    <string name="aeien_dot">غ</string>
+    <string name="fa">ف</string>
+    <string name="qaf">ق</string>
+    <string name="kaf">ك</string>
+    <string name="lam">ل</string>
+    <string name="meem">م</string>
+    <string name="noon">ن</string>
+    <string name="ha">ه</string>
+    <string name="waw">و</string>
+    <string name="yaMksora">ى</string>
+    <string name="ya">ي</string>
+    <string name="hamza">ء</string>
+    <string name="hamza_down">إ</string>
+    <string name="hamza_up">أ</string>
+    <string name="hamza_waw">ؤ</string>
+    <string name="hamza_maksora">ئ</string>
+    <string name="alphbt">إأابةتثجحخدذرزسشصضطظعغفقكلمنهوىيئؤء</string>
+    <string name="default_alphbt">ابمودلني</string>
+    <!-- Nextpeer -->
+
+    <string name="nextpeer_game_key">e2b60199592db7d00bcfa6c7f9f16e17</string>
+
+    <!-- gamer report -->
+    <string name="points_title">النقاط</string>
+
+    <!-- game msgs -->
+    <string name="good_status">احسنت</string>
+
+    <!-- Facebook app id -->
+    <string name="app_id">495206480567005</string>
+
+    <!-- Facebook friends activity -->
+    <string name="facebook_friends_players_section_title">الاصدقاء الذين يستخدمون %1$s</string>
+    <string name="facebook_friends_not_players_section_title">ادعو اصدقائك على فيسبوك الان</string>
+    <string name="facebook_failer">حدث خطأ أثناء الإتصال بفيسبوك . حاول مرة أخرى</string>
+
+    <!-- Sign up activity -->
+    <string name="sign_up_title">حساب جديد</string>
+    <string name="sign_up_email_hint">البريد الاكتروني</string>
+    <string name="first_name_hint">الاسم الاول</string>
+    <string name="last_name_hint">الاسم الاخير</string>
+    <string name="status">status</string>
+    <string name="auth_user_falied">خطا في البيانات &#8230; حاول مرة اخرى</string>
+    <string name="internet_failer">تاكد من شبكة الانترنت</string>
+    <string name="server_failer">تاكد من شبكة الانترنت</string>
+    <string name="wrong_info">الرجاء ادخال جميع البينات</string>
+    <string name="please_wait_msg">الرجاء الانتظار ...</string>
+    <string name="warning_data_missing">الرجاء ادخال جميع البينات</string>
+    <string name="register_successfully">تم تسجيلك بنجاح</string>
+    <string name="failer_message">حدث خطا</string>
+    <string name="profile">Profile</string>
+    <!-- Web service and json -->
+    <!-- www.skyhp.com -->
+    <string name="web_service_http_address">http://shabbik.ayhamjaradat.space/api/web/v1/service/</string>
+    <string name="upload_image_web_service_address">uits</string>
+<!--    <string name="sign_up_web_service_address">sunu</string>-->
+    <string name="sign_up_web_service_address">sign-up</string>
+    <string name="add_new_game_info_web_service_address">angi</string>
+    <string name="retrieve_random_user_web_service_address">rru</string>
+    <string name="check_facebook_users_web_service_address">cfu</string>
+    <string name="update_user_info_web_service_address">uui</string>
+    <string name="update_round_game_info_web_service_address">urgi</string>
+    <string name="periodic_pull_notification_web_service_address">ppn</string>
+    <string name="server_notification_ack_web_service_address">snak</string>
+    <!-- Dialogs -->
+    <!-- Register dialog -->
+    <string name="register_dialog_title">تسجيل</string>
+    <string name="register_dialog_message">عمل حساب جديد</string>
+    <string name="facebook_register_dialog_title">الدخول لفيسبوك</string>
+    <string name="facebook_register_dialog_message">تسجيل الدخول لفيسبوك</string>
+    <string name="ok_button">نعم</string>
+    <string name="cancel_button">الغاء</string>
+
+    <!-- Facebook -->
+    <string name="facebook_invitation_message">انضم الى شبّك واستمتع باللعب مع اصدقائق</string>
+
+    <!-- Challenges activity -->
+    <string name="waiting_message">بالانتظار</string>
+    <string name="your_turn_message">حان دورك</string>
+    <string name="you_lose">لقد خسرت!</string>
+    <string name="you_win">لقد ربحت!</string>
+
+    <!-- Profile activity -->
+    <string name="profile_last_score">اخر نتيجة</string>
+    <string name="profile_highest_score">اعلى نتيجة</string>
+    <string name="profile_number_of_words">عدد الكلمات</string>
+    <string name="profile_number_of_sentences">عدد الجمل</string>
+
+    <!-- Notification -->
+    <string name="notification_title">تحدي جديد</string>
+    <string name="notification_message">%1$s لعب ضدك ... ابدا اللعب</string>
+    <string name="notification_message_done">انتهت اللعبة مع %1$s, شاهد النتيجة</string>
+
+    <!-- Rounds View -->
+    <string name="total">المجموع</string>
+    <string name="your_turn">دورك الآن يا </string>
+    <string name="his_turn">دور </string>
+
+    <!-- For sending database-log -->
+    <string name="app_chooser_title">choose app</string>
+    <string name="the_winner_is">الفائز هو</string>
+    <string name="same_score">تعادل</string>
+    <string name="your_score">النقاط: </string>
+    <string name="you_found">اكتشفت</string>
+    <string name="from">من</string>
+    <string name="a_word">كلمة</string>
+    <string name="the_sentence_is">الجملة: </string>
+
+    <!-- Inneractive app ID -->
+    <string name="inneractive_app_id">ZENOVA_shabbik_Android</string>
+
+    <!-- Facebook post -->
+    <string name="post_name">لعبة شبّك</string>
+    <string name="post_caption">فكّر ... اتحدى ... واتعلم</string>
+    <string name="post_description"> انضم للعبة شبّك واستمتع باللعب مع اصدقائك</string>
+    <string name="post_image">http://s23.postimg.org/szinkmbrr/launch_icon.png</string>
+    <string name="post_link">http://play.google.com/store/apps/details?id=%1$s</string>
+
+    <!-- Word game activity -->
+    <string name="default_puzzel">لدنيوبمارقفرثاضن</string>
+    <string name="default_puzzel_words">بل,بلد,بلدنا,بلور,بد,بدل,بدلو,بدن,بدني,بدنيا,بدنا,بدو,بدول,بدور,بدم,بدمنا,بدمي,بدمار,بن,بند,بندول,بندم,بني,بنيما,بنيا,بنيام,بنما,بنا,بناي,بنام,بنار,بول,بولد,بورق,بوق,بوقف,بوقا,بم,بمد,بمدن,بمدنا,بمن,بمني,بمناي,بمي,بما,بماني,بمقود,بمقار,بمر,بمرض,بر,برول,برود,بروق,برق,برقم,برا,براق,براث,براض,بقو,بقول,بقم,بقمر,بقر,بقرا,بقا,بقار,بقاض,بفم,بفمي,بفان,بفقر,بفرم,بفرض,بفرن,بفارق,بفض,بفن,ان,اندل,اندم,اني,انم,اي,اين,ايمن,ام,امد,امن,امني,امي,امين,امر,امرض,افق,افقر,افر,افرمي,افرض,افرن,افاق,ارفق,ارفض,ارض,ارضا,اربد,ارث,اقول,اقبل,اقم,اقمنا,اقمار,اقر,اقرب,اقف,اقض,افرام,اضف,اضر,اضرام,ثق,ثقوب,ثقب,ثقف,ثقفا,ثار,ثاقب,دلو,دني,دنيا,دنب,دنا,دول,دور,دورق,دورا,دب,دبل,دبن,دبور,دبر,دبرا,دم,دمنا,دما,دمار,دمر,دمرا,روب,رب,ربنا,ربو,ربما,رقود,رقم,رقمي,رقمين,رقما,رقمان,رقا,راق,راقب,رافق,رافض,راث,راض,رمنا,رمي,رميا,رمان,رماني,رمق,رام,رامي,رامين,رف,رفا,رفق,رفقا,رفاق,رفض,رفضا,رفضن,رضا,ضفر,ضر,ضرما,ضرا,ضرام,ضار,ضارب,ضاق,ضاف,لو,لبن,لبنا,لبق,لبقا,ند,ندل,ندوب,ندور,ندب,ندم,ندمي,ندما,ندمر,نبل,نبدل,نبدو,نم,نمد,نمي,نما,نمر,نام,نامي,نامق,نافق,نافضا,نار,ين,يندب,يندم,ينبو,ينم,ينا,ينام,ينافق,ينار,يمد,يمدنا,يمن,يمان,يمر,يمران,يمرض,يا,يامن,يافا,ولد,ولدن,ود,وب,وبر,وبرا,ورب,ورق,ورث,وقف,وقفا,وقار,مد,مدن,مدني,مدنيا,مدنا,مدو,مدبر,مدبرا,من,مندل,مندوب,مني,منيا,منبرا,منافق,مي,ميار,مبل,مبدل,مبني,مبنيا,مار,مقبل,مقبول,مقر,مقرب,مقرا,مقفرا,مقار,مقارب,مفقود,مفر,مفرا,مفارق,مر,مرافق,مرفق,مرفقا,مرض,مرضا,مرن,قول,قبل,قبو,قبول,قبور,قبورا,قبر,قبرا,قمنا,قمار,قمر,قمرا,قمران,قر,قرود,قرب,قربني,قربنا,قف,قفا,قارب,قاف,قاض,قضا,فمي,فاني,فار,فارم,فارض,فارضا,فقود,فقم,فقر,فر,فرم,فرمي,فرما,فرمان,فرا,فران,فرام,فرض,فرضا,فرن,فارق,فاق,فاقم,فاض,فض,فن,نفق,نفقا,نفرم,نفرض,نفارق,نفاق,نفض,نرمي,نرمين,نرفق,نرفض,نضر,نضرم,نضرا</string>
+    <string name="default_puzzel_reversed">نثبلافضروراقيندم</string>
+    <string name="default_puzzel_words_reversed">بث,بثا,بثار,بل,بفن,بفان,بفض,بفضل,بفرض,بفراق,بفرن,بفرد,بفارق,بفاقد,بضر,بضاف,بضار,بر,برضا,برا,براض,براري,براق,براد,برادر,برام,برق,برقم,ان,انف,انفض,انفر,انفرد,انفا,انفاق,اثن,افضل,افر,افرض,افراد,افرام,افرن,افرد,افاق,افاد,او,اوف,اوفر,اوراق,اورام,اورد,ارفض,ارض,ارضا,اروي,اراد,ارينا,ارد,اردنا,اردني,اضل,اضف,اضفنا,اضر,اضرب,ارقد,اقض,اقر,اقرب,اقرض,اقدر,اقدم,اقم,انوار,انور,انوي,اني,اندري,اندق,اندم,ادر,ادرو,ادري,ادق,ادنوا,ادني,ادم,ام,امد,ثنا,ثان,ثار,ضل,ضفر,ضر,ضرب,ضرا,ضرار,ضرام,ضروف,ضري,ضرني,ضاف,ضار,ضارب,ضارا,ضاران,ضاري,ضاق,ضان,ضاني,ضاد,ضام,رب,ربض,رضا,رافض,راض,راق,راقد,راد,رام,رقا,رقاد,رقدنا,رقم,رقما,رقمان,راث,راوي,رف,رفا,رفض,رفضا,رفوا,رفاق,روف,روفا,روي,رنا,رني,رند,رندا,رد,ردا,ردنا,ردني,ردم,درا,دراق,دري,درنا,دار,داروا,دارون,داري,دارين,داني,دنوا,دنا,دني,دم,دما,دمار,نثارا,نافضا,نافون,نار,نارا,ناري,نارين,نفض,نفضل,نفوا,نفور,نفورا,نفرض,نفروا,نفرن,نفرد,نفارق,نفاق,لبث,لبثنا,فن,فار,فارض,فارضا,فاران,فاراد,فارين,فارد,فض,فضل,فور,فورا,فوري,فر,فرا,فران,فرض,فرضا,فرو,فروا,فرار,فراق,فرام,فرن,فرد,فردا,فردان,فردن,فردني,فاض,فاضل,فارق,فاق,فاقد,فاقم,فانوا,فاني,فاد,واثن,واثب,واف,وافر,وارد,وفر,وفرا,ورد,وردا,وردان,قضا,قر,قرب,قرض,قرضا,قرار,قرارا,قراري,قراني,قاف,قاض,قارب,قارف,قاري,قارين,قارن,قارني,قاني,قاد,قادر,قادرا,قادري,قادني,قادم,قام,قدر,قدرا,قدروا,قدرون,قدري,قدرنا,قدن,قدنا,قدم,قدما,قمار,قمارا,يوفنا,يوفا,يوفر,يورد,يرف,يرفث,يرفان,يرفض,يرض,يرضا,يرو,يروا,يراد,يرن,يرنو,يرد,يردا,يردن,يردنا,ين,ينور,ينا,يناضل,ينار,يناقض,ينام,يندر,يندم,نوار,نور,نورا,نوران,نوري,نورد,نرفض,نري,نرد,ناضل,ناضرا,ناق,ناقض,ناقد,ناقم,ناد,نادر,نادرا,نادم,نام,نامق,نيران,ند,ندر,ندري,ندق,ندم,ندما,مار,مارق,ماران,مارد,مقر,مقرب,مقرض,مقرضا,مقرا,مقران,مقار,مقارب,مقارا,مقارن,مقدر,مقدرا,مقدار,مد,مدرار,مدري,مدا,مدافن,مدار,مدارا,مداري,مدان,مدن,مدنا,مدني,مدنيون</string>
+
+    <!-- Support dialog -->
+    <string name="support_url">http://developers.mobily.com.sa/Award2014/Arabic/NomAppDetails.jsp?appId=DEVC20140809231106505</string>
+    <string name="support_dialog_title">مسابقة موبايلي العالمية</string>
+    <string name="support_dialog_message">لقد تم اختيار لعبة "شبّك" كواحدة من افضل 20 تطبيق شاركوا في مسابقة شركة موبايلي العالمية. الرجاء دعم اللعبة من خلال التصويت عن طريق موقع المسابقة. \n\n هل ترغب في التصويت ؟</string>
+    <string name="support_dialog_accept_button">موافق</string>
+    <string name="support_dialog_later_button">لاحقا</string>
+
+    <!-- AdMob IDs -->
+    <string name="main_activity_top_banner">ca-app-pub-9554270120298514/5148368382</string>
+    <string name="second_menu_activity_top_banner">ca-app-pub-9554270120298514/5508295185</string>
+    <string name="play_report_activity_top_banner">ca-app-pub-9554270120298514/2275627189</string>
+    <string name="rounds_activity_bottom_banner">ca-app-pub-9554270120298514/4810291184</string>
+    <string name="game_report_interstitial_ad">ca-app-pub-9554270120298514/3200630387</string>
+    <string name="word_game_bottom_banner">ca-app-pub-9554270120298514/6719173188</string>
+
+</resources>
