@@ -158,9 +158,10 @@ public class RegistrationManager implements GCMManager.OnGCMUserRegister, IConst
                     if (status) {
                         Log.i(TAG,"status is true");
                         // User successfully registered on server.
-                        JSONObject jsonData= jsonObject.getJSONObject("data");
-                        int id = jsonData.getInt("id");
-//                        int id = jsonData.getInt(USER_ID);
+//                        JSONObject jsonData= jsonObject.getJSONObject("data");
+//                        int id = jsonData.getInt("id");
+                        int id = jsonObject.getInt(USER_ID);
+
                         user.setId(id);
 
                         addUserToLocalDatabase();

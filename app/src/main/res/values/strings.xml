@@ -82,7 +82,7 @@
     <string name="add_new_game_info_web_service_address">angi</string>
     <string name="retrieve_random_user_web_service_address">rru</string>
     <string name="check_facebook_users_web_service_address">cfu</string>
-    <string name="update_user_info_web_service_address">uui</string>
+    <string name="update_user_info_web_service_address">update-user</string>
     <string name="update_round_game_info_web_service_address">urgi</string>
     <string name="periodic_pull_notification_web_service_address">ppn</string>
     <string name="server_notification_ack_web_service_address">snak</string>
