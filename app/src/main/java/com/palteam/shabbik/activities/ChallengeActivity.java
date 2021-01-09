@@ -106,7 +106,8 @@ public class ChallengeActivity extends FragmentActivity implements IConstants,
         rightToggle = (ImageView) findViewById(R.id.imageViewToggleRight);
         rightToggle.setOnClickListener(this);
 
-        pager.setOnPageChangeListener(this);
+//        pager.setOnPageChangeListener(this);
+        pager.addOnPageChangeListener(this);
 
         // Initialize pager.
         pagerAdapter = new PagerAdapter(getSupportFragmentManager());

@@ -26,6 +26,8 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 
 import com.palteam.shabbik.beans.Game;
 import com.palteam.shabbik.beans.Round;
@@ -407,20 +409,39 @@ public class SecondMenuActivity extends Activity implements IConstants,
         @Override
         protected String doInBackground(Void... params) {
 
-            String requestParameters = "/" + game.getFirstUserId() + "/"
-                    + game.getSecondUserId() + "/" + gameMode;
+            // Use Post Params
+            Map<String, String> parameters = new HashMap<>();
+            parameters.put(FIRST_USER_ID, game.getFirstUserId()+"");
+            parameters.put(SECOND_USER_ID, game.getSecondUserId()+"");
+            parameters.put(GAME_MOOD, gameMode+"");
 
+
+            String parametersString = WebService
+                    .createQueryStringForParameters(parameters);
             String url = getResources().getString(
                     R.string.web_service_http_address)
                     + getResources().getString(
-                    R.string.add_new_game_info_web_service_address)
-                    + requestParameters;
+                    R.string.add_new_game_info_web_service_address);
 
-            String jsonString = WebService.requestWebService(url, null);
+            String jsonString = WebService.requestWebService(url,
+                    parametersString);
+
+            //**************
+//            String requestParameters = "/" + game.getFirstUserId() + "/"
+//                    + game.getSecondUserId() + "/" + gameMode;
+
+//            String url = getResources().getString(
+//                    R.string.web_service_http_address)
+//                    + getResources().getString(
+//                    R.string.add_new_game_info_web_service_address)
+//                    + requestParameters;
+
+//            String jsonString = WebService.requestWebService(url, null);
 
             // if return null ,, try again for more one time
             if (jsonString == null) {
-                jsonString = WebService.requestWebService(url, null);
+                jsonString =  WebService.requestWebService(url,
+                        parametersString);
             }
             if (isCancelled()) {
 
@@ -521,7 +542,7 @@ public class SecondMenuActivity extends Activity implements IConstants,
         @Override
         protected String doInBackground(Void... params) {
 
-            String requestParameters = "/" + user.getId();
+            String requestParameters = "?userid=" + user.getId();
 
             String url = getResources().getString(
                     R.string.web_service_http_address)

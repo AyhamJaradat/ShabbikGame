@@ -21,6 +21,10 @@ public interface IConstants {
     String USER_KEY = "userKey";
     String USER_NICKNAME = "userNickName";
 
+    String FIRST_USER_ID = "firstUserId";
+    String SECOND_USER_ID = "secondUserId";
+    String GAME_MOOD = "gameMode";
+
     String LIST_OF_USER_FB_ID = "listOfFaceBookIds";
 
     /*

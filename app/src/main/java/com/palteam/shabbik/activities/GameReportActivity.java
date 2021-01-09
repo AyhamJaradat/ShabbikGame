@@ -286,7 +286,7 @@ remove layout resource
         // check if there is Internet connection
         boolean isConnected = WebService.isConnectedToWeb(context);
         if (isConnected) {
-
+            Log.i(TAG,"Start UpdateGameInfoAsyncTask");
             new UpdateGameInfoAsyncTask().execute();
         } else {
             setReportMenuVisible();

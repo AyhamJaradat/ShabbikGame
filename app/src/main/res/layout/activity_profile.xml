@@ -162,12 +162,12 @@
 
         <!-- Facebook login button -->
 
-        <com.facebook.widget.LoginButton
-            android:id="@+id/loginButtonFacebook"
-            android:layout_width="250dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:visibility="gone" />
+<!--        <com.facebook.widget.LoginButton-->
+<!--            android:id="@+id/loginButtonFacebook"-->
+<!--            android:layout_width="250dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="center_horizontal"-->
+<!--            android:visibility="gone" />-->
     </LinearLayout>
 
 </LinearLayout>
